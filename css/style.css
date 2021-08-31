@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/****************************/
+/** Imports **/
+/****************************/
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url("https://rsms.me/inter/inter.css");
+@import url(../vendors/bootstrap/css/bootstrap.min.css);
+@import url(font-awesome.min.css);
+@import url(ionicons.min.css);
+@import url(dripicons.css);
+@import url(glyphicons.css);
+@import url(themify-icons.css);
+@import url(animate.css);
+@import url(simple-line-icons.css);
+@import url(linea-icon.css);
+@import url(pe-icon-7-stroke.css);
