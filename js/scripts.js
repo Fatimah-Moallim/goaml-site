@@ -1,10 +1,6 @@
 /* Constellation */
 function showConstellation() {
   // Init plugin
-  // var height = $('.left-side').height() * (90 / 100);
-  // var width = $('.left-side').innerWidth();
-  // var height = $('.main').outerHeight(true);
-  // var width = $('.main').outerWidth(true);
   var height = $('.constellation').height();
   var width = $('.constellation').width();
   console.log(height, width);
