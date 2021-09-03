@@ -83,12 +83,13 @@ a:focus {
 
 .main {
   flex: 0 0 90%;
-  padding: 10vh 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   position: relative;
   z-index: 120;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .header {
@@ -202,27 +203,7 @@ a:focus {
   }
 
   .logo {
-    width: 45rem;
-    margin-bottom: 2rem;
-  }
-
-  .welcome {
-    font-size: 4.5rem;
-    margin-bottom: 3rem;
-  }
-
-  .go-here, .go-here:visited {
-    font-size: 2rem;
-  }
-
-  .footer__legal {
-    font-size: 1.4rem;
-  }
-
-  .footer__social-icon {
-    height: 3.5rem;
-    width: 3.5rem;
-    font-size: 1.6rem;
+    width: 50rem;
   }
 }
 
@@ -233,32 +214,19 @@ a:focus {
     font-size: 50%;
   }
 
-  .header {
-    margin: 5rem 0 5rem 0;
-  }
-
-  .logo {
-    width: 35rem;
-    margin-bottom: 2rem;
-  }
-
   .welcome {
     font-size: 3rem;
     margin-bottom: 3rem;
   }
 
-  .go-here, .go-here:visited {
-    font-size: 2rem;
-  }
-
   .footer__legal {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 
   .footer__social-icon {
-    height: 3rem;
-    width: 3rem;
-    font-size: 1.4rem;
+    height: 3.6rem;
+    width: 3.6rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -269,12 +237,11 @@ a:focus {
     font-size: 31.25%;
   }
 
-  .header {
-    margin: 10rem 0 5rem 0;
+  .main {
+    flex: 0 0 85%;
   }
 
   .logo {
-    width: 30rem;
     margin-bottom: 4rem;
   }
 
@@ -288,14 +255,14 @@ a:focus {
   }
 
   .footer {
+    flex: 0 0 15%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
 
   .footer__legal {
-    font-size: 2rem;
-    margin-bottom: 3rem;
+    font-size: 2.5rem;
   }
 
   .footer__social {
@@ -304,9 +271,9 @@ a:focus {
   }
 
   .footer__social-icon {
-    height: 4rem;
-    width: 4rem;
-    font-size: 1.8rem;
+    height: 5.5rem;
+    width: 5.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -317,44 +284,11 @@ a:focus {
     font-size: 75%;
   }
 
-  .wrapper {
-    min-height: 65rem;
-  }
-
-  .main {
-    padding: 10vh 1rem 1rem 1rem;
-  }
-
-  .header {
-    margin: 0 0 2rem 0;
-  }
-
-  .logo {
-    width: 45rem;
-    margin-bottom: 2rem;
-  }
-
-  .welcome {
-    font-size: 4.5rem;
-    margin-bottom: 3rem;
-  }
-
-  .go-here, .go-here:visited {
-    font-size: 2rem;
-  }
-
-  .footer {
-    padding: 1rem;
-  }
-
   .footer__legal {
     font-size: 1.5rem;
   }
 
   .footer__social-icon {
-    height: 3.5rem;
-    width: 3.5rem;
-    font-size: 1.6rem;
     margin-left: .6rem;
   }
 }
