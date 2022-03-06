@@ -19,7 +19,7 @@ function showConstellation() {
     // radius: 150,
     length: (width / 10),
     radius: (width / 8),
-    velocity: 0.5,
+    velocity: 0.6,
     distance: 160,
   });
 }
@@ -43,5 +43,14 @@ $(window).on('resize', function() {
 $(document).ready(function() {
 
   showConstellation();
+
+  $('body').keypress(function(e){
+    console.log('Enter Key');
+    const keycode = (e.keyCode ? e.keyCode : e.which);
+    if(keycode == '13'){
+      // $('.go-here')[0].('click');
+        $('.go-here').get(0).click();
+    }
+  });
 
 });

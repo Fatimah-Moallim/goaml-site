@@ -84,8 +84,8 @@ a:focus {
 .main {
   flex: 0 0 90%;
   padding: 1rem 1rem 1rem 1rem;
-  position: relative;
-  z-index: 120;
+  /* position: relative;
+  z-index: 120; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -138,8 +138,8 @@ a:focus {
 /* Footer */
 .footer {
   flex: 0 0 10%;
-  background: #2b383e;
-  padding: 1rem;
+  background: transparent;
+  padding: 1rem 3rem;
   position: relative;
   z-index: 120;
   display: flex;
@@ -150,7 +150,7 @@ a:focus {
 .footer__legal {
   font-size: 1.4rem;
   font-weight: 300;
-  color: #848d91;
+  color: #d6d9da;
   margin-bottom: 0;
 }
 
@@ -171,7 +171,7 @@ a:focus {
   height: 3.5rem;
   width: 3.5rem;
   font-size: 1.6rem;
-  background-color: rgba(91, 103, 109, 0.5);
+  background-color: rgba(214, 217, 218, 1);
   color: #0d1113;
   border-radius: 50%;
   margin-left: .5rem;
@@ -181,18 +181,33 @@ a:focus {
   align-items: center;
 }
 
+.footer__social-facebook {
+  color: #3a55b1;
+}
+
+.footer__social-twitter {
+  color: #00acf0;
+}
+
 .footer__social-icon:hover {
   cursor: pointer;
+  color: #f5f5f6;
 }
 
 .footer__social-facebook:hover {
   background-color: #3a55b1;
-  color: #f5f5f6;
 }
 
 .footer__social-twitter:hover {
   background-color: #00acf0;
-  color: #f5f5f6;
+}
+
+@media only screen and (max-width: 112.5em) {
+
+  /* 1800px */
+  html {
+    font-size: 56.25%;
+  }
 }
 
 @media only screen and (max-width: 75em) {
@@ -242,6 +257,7 @@ a:focus {
   }
 
   .logo {
+    width: 40rem;
     margin-bottom: 4rem;
   }
 
